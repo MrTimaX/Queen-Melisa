@@ -245,7 +245,7 @@ cmd({
         },
         async(Void, citel, text, isAdmins) => {
             const aliveadm = isAdmins ? "True" : "False";
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*ʜɪ ${citel.pushName} ɪ'ᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ!*`
             const alivtxt = `
 *Hello, my ${citel.pushName},*
 *This is  ${tlang().title}.*
@@ -266,6 +266,28 @@ ${alivemessage}
                 caption: alivtxt,
                 footer: tlang().footer,
                 headerType: 4,
+                hydratedButtons: [{
+                                                  urlButton: {
+                                                      displayText: 'ɢɪᴛʜᴜʙ',
+                                                      url: `https://github.com/deeikgteam/Queen-Melisa`
+                                                  }
+                                              },{
+                                                  callButton: {
+                                                      displayText: 'ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ',
+                                                      url: `94715264791`
+                                                  }
+                                              },{
+                                                  quickReplyButton: {
+                                                      displayText: 'sʏsᴛᴇᴍ sᴛᴀᴛᴇs',
+                                                      id: `sysd`
+                                                      }
+                                                  }, {
+                                                  quickReplyButton: {
+                                                      displayText: 'ᴠᴇʀsɪᴏɴ',
+                                                      id: `version`
+                                                      }
+                                                  
+                                              }]
             };
             Void.sendMessage(citel.chat, aliveMessage, {
                 quoted: citel,

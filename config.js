@@ -7,15 +7,15 @@ global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
-global.github = 'https://github.com/SamPandey001/Secktor-Md'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
+global.github = 'https://github.com/TimashaBuddilax/Queen-Melisa-Deploy'
+global.location = 'Sri Lanka'
+global.gurl = 'wa.me/94715264791'
 global.sudo = process.env.SUDO || '919628516236'
-global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
+global.website = 'https://github.com/TimashaBuddilax'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
-  ownername:process.env.OWNER_NAME || 'SamPandey001',
+  botname: process.env.BOT_NAME || 'ǫᴜᴇᴇɴ ᴍᴇʟɪsᴀ',
+  ownername:process.env.OWNER_NAME || 'ᴍʀ ᴛɪᴍᴀ',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
